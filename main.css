@@ -1,0 +1,118 @@
+body {
+    background-color: #fae9e9;
+}
+
+header {
+    display: block;
+    padding: 200px;
+    background-image: url('https://i.pinimg.com/originals/c8/57/48/c85748a69e1855f87f98519d11d89221.png');
+    background-size: cover;
+    box-shadow: 10px 10px 10px 0 #fae9e9 inset, -10px -10px 10px 0 #fae9e9 inset;
+}
+
+.mainlogo {
+    float: right;
+    width: 15%;
+}
+
+.mainlogo:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+.main-nav {
+    margin-left: 120px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+/*.intro {
+    background-image: url('https://img.freepik.com/free-photo/white-marble-texture-background_42682-249.jpg?size=626&ext=jpg');
+    background-size: cover;
+    background-color: #faf2e9;
+    box-shadow: 10px 10px 10px 0 white inset, -10px -10px 10px 0 white inset;
+
+margin-left: 100px;
+}*/
+
+#myname {
+    margin-left: 100px;
+    font-size: 400%;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+}
+
+
+/*#sub-blurb {
+    text-align: center;
+    font-size: large;
+    font-family: monospace;
+    color: #cc8e8e;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 15px;
+}*/
+
+h1 {
+    text-align: left;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+    color: #ffffff;
+}
+
+#about {
+    background-color: #cc8e8e;
+    margin-left: 100px;
+}
+
+#education {
+    background-color: #cc8e8e;
+    margin-left: 100px;
+}
+
+#experience {
+    background-color: #cc8e8e;
+    margin-left: 100px;
+}
+
+.left-nav {
+    height: 100%;
+    width: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 10px;
+    background-color: #d49e8d;
+    border-color: #faf2e9;
+    border-style: dotted;
+    border-width: 10px;
+}
+
+#mini-icon {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30 px;
+    height: 30px;
+    border-color: white;
+    border-width: 2px;
+}
