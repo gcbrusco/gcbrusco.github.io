@@ -1,6 +1,14 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 body {
     background-color: #fff2f0ff;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .mainlogo {
@@ -78,19 +86,11 @@ h1:hover {
     transition-duration: 0.3s;
 }
 
-#description {
-    /*margin: auto;
-    width: 92%;
-    margin-right: 45px;
-    z-index: -1;
-    padding: 35px;*/
-}
-
 #text {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 50px;
-    margin-right: 70px;
+    margin-right: 80px;
     padding: 35px;
     box-shadow: 5px 5px 7px black;
     background-color: rgb(253, 250, 250);
