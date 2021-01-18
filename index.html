@@ -37,41 +37,60 @@
     <section id="about"></section>
     <h1 style="color: #0fb3ae">ABOUT</h1>
     <span id="description">
-        <div id="profilepic">
-            <img style="height: 280px;" src="content/images/profile.png">
-        </div>
-            <div id="text">
+            <img id="profilepic" src="content/images/profile.png">
+            <div id="text" style="margin-left: 30%;">
                 <div id="title">
                     <b>WELCOME TO MY WEBSITE!</b>
                 </div>
                 <br> Hi there! My name is Gina Brusco, I am a sophomore Computer Science major at the University of Notre Dame. I created this website out of sheer bordem and curiousity during my 2-month quarantine in my hometown
-                of Bronxville, New York. In my freetime, I love creating digital art, painting, skiing, and doing investing research. In fact, I plan to obtain a minor in the buisness field and hope to work in the FinTech industry in the future.
+                of Bronxville, New York. In my freetime, I love creating digital art, painting, and skiing. I plan to obtain a minor in a buisness-related field and hope to work in the FinTech industry in the future.
             </div>
     </span>
+    <br>
 
+    <div id="colorblock" style="background-color: #f69fb2"></div>
     <section id="education"></section>
     <h1 style="color: #0fb3ae">EDUCATION</h1>
     <span id="description">
-            <div id="text">
-                words
-            </div>
-    </span>
+        <div id="text">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'HC')">School of the Holy Child</button>
+            <button class="tablinks" onclick="openTab(event, 'ND')">University of Notre Dame</button>
+            <button class="tablinks" onclick="openTab(event, 'FE')">Future Education</button>
+          </div>
+          
+          <div id="HC" class="tabcontent">
+            <h3>School of the Holy Child</h3>
+            <p>High school.</p>
+          </div>
+          
+          <div id="ND" class="tabcontent">
+            <h3>University of the Notre Dame</h3>
+            <p>College.</p> 
+          </div>
+          
+          <div id="FE" class="tabcontent">
+            <h3>Future Education</h3>
+            <p>Graduate School.</p>
+          </div>
+        </div>
+        <script src="main.js"></script>
+    </span> <br>
 
-    <br>
+    <div id="colorblock" style="background-color: #f69fb2"></div>
     <section id="experience"></section>
     <h1 style="color: #0fb3ae">EXPERIENCE</h1>
-    <div id="description">
+    <span id="description">
         words
-    </div>
+    </span>
     <div id="colorblock" style="background-color: #f69fb2"></div>
-
-    <footer id="main-footer">
-        <section class="footersub"></section>
-        <section class="footersub"></section>
-        <section class="footersub"></section>
-        <section class="footersub"></section>
-        <section id="copyright-info"></section>
-    </footer>
 </body>
+<footer id="main-footer">
+    <section class="footersub">
+        Gigi Brusco
+    </section>
+    <section id="copyright-info"></section>
+</footer>
+
 
 </html>

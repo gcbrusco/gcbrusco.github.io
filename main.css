@@ -65,8 +65,8 @@ a:visited {
 
 h1 {
     text-align: left;
-    padding-left: 30px;
-    margin-bottom: 15px;
+    margin: 15px;
+    margin-left: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 50px;
@@ -79,26 +79,21 @@ h1:hover {
 }
 
 #description {
-    display: block;
-    margin-top: 0px;
-    margin-bottom: 25px;
-    margin-left: 2%;
-    margin-right: 5%;
-    float: left;
-}
-
-#clear {
-    clear: both;
+    /*margin: auto;
+    width: 92%;
+    margin-right: 45px;
+    z-index: -1;
+    padding: 35px;*/
 }
 
 #text {
-    box-shadow: 5px 5px 7px black;
-    /*border-bottom: 15px dotted black;
-    border-right: 15px dotted black;
-    display: block;*/
-    background-color: rgb(253, 250, 250);
-    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 70px;
     padding: 35px;
+    box-shadow: 5px 5px 7px black;
+    background-color: rgb(253, 250, 250);
     font-size: 25px;
     text-align: right;
     font-family: monospace;
@@ -107,12 +102,16 @@ h1:hover {
 #colorblock {
     width: 100%;
     height: 40px;
+    z-index: 1;
 }
 
 #profilepic {
     float: left;
-    margin: 20px;
+    width: 23%;
+    margin: 10px;
+    margin-left: 5%;
     filter: drop-shadow(-10px 10px 6px #0fb3ae);
+    z-index: 1;
 }
 
 #title {
@@ -134,9 +133,48 @@ h1:hover {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
     width: 40px;
     height: 40px;
     border-color: white;
     border-width: 2px;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#main-footer {
+    background-color: #0fb3ae;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
 }
