@@ -25,11 +25,13 @@ body {
 
 .main-nav {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
-    font-size: 120%;
+    font-size: 180%;
     width: 100%;
     color: black;
+    background-color: #c9746e;
+    padding: 10px;
 }
 
 a:hover {
@@ -46,7 +48,7 @@ a:visited {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 380px;
+    height: 410px;
     z-index: -1;
     object-fit: cover;
     /*display: block;
@@ -56,14 +58,27 @@ a:visited {
     box-shadow: 10px 10px 10px 0 #fae9e9 inset, -10px -10px 10px 0 #fae9e9 inset;*/
 }
 
+mark {
+    all: unset;
+    background-color: rgb(255, 244, 244);
+}
+
+#mynameis {
+    font-size: 40px;
+    padding-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #c1554e;
+    padding-left: 10%;
+}
+
 #myname {
-    font-size: 100px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    text-shadow: 3px 3px #c1554e;
-    color: white;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #c1554e;
+    padding-bottom: 120px;
+    padding-left: 10%;
 }
 
 #myname:hover {
@@ -74,7 +89,7 @@ a:visited {
 h1 {
     text-align: left;
     margin: 15px;
-    margin-left: 50px;
+    margin-left: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 50px;
@@ -91,15 +106,16 @@ h1:hover {
     margin-bottom: 5px;
     margin-left: 50px;
     margin-right: 80px;
-    padding: 35px;
-    box-shadow: 5px 5px 7px black;
-    background-color: rgb(253, 250, 250);
+    padding: 15px;
+    /*box-shadow: 5px 5px 7px black;
+    background-color: rgb(253, 250, 250);*/
     font-size: 25px;
     text-align: right;
-    font-family: monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #colorblock {
+    background-color: #c9746e;
     width: 100%;
     height: 40px;
     z-index: 1;
@@ -107,9 +123,9 @@ h1:hover {
 
 #profilepic {
     float: left;
-    width: 23%;
+    width: 18%;
     margin: 10px;
-    margin-left: 5%;
+    margin-left: 7%;
     filter: drop-shadow(-10px 10px 6px #c1554e);
     z-index: 1;
 }
@@ -119,30 +135,24 @@ h1:hover {
     font-size: 40px;
 }
 
-.bottom-nav {
-    height: 100%;
-    width: 50px;
-    margin-bottom: 50px;
-    right: 0;
-    z-index: 1;
-    padding: 10px;
-    margin-right: 10px;
-    position: fixed;
+#mini-icon {
+    height: 40px;
+    padding-top: 3px;
+    padding-bottom: 7px;
 }
 
-#mini-icon {
-    margin-bottom: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40px;
-    height: 40px;
-    border-color: white;
-    border-width: 2px;
+.bottom-nav {
+    width: 50px;
+    right: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    position: fixed;
+    background-color: #ffe9e8;
 }
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
+    border: 4px solid #e49a95;
     background-color: #f1f1f1;
 }
 
@@ -168,14 +178,15 @@ h1:hover {
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
+    border: 4px solid #e49a95;
+    background-color: rgb(250, 246, 246);
     border-top: none;
 }
 
 #main-footer {
     background-color: #c1554e;
-    color: black;
-    padding: 50px;
+    color: #4d1410;
+    padding: 20px;
     text-align: center;
     width: 100%;
     margin: 0;
