@@ -1,2 +1,1 @@
-Website under construction!
-# gcbrusco.github.io
+Website under construction :)
