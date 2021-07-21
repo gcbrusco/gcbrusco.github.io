@@ -65,6 +65,24 @@ a:hover {
     color: rgb(255, 255, 255);
 }
 
+.bottom-nav {
+    padding: 1%;
+    margin-right: 10px;
+    margin-bottom: 6%;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+#mini-icon {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#mini-icon:hover {
+    transform: scale(1.2);
+}
+
 #GB {
     font-size: x-large;
     letter-spacing: -2px;
