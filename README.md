@@ -1,6 +1,7 @@
-✨Welcome, friends✨
 
-# Updates
+# ✨Welcome, friends✨
+
+## Updates
 
 - _January 2021:_ just learned HTML & CSS ... this is an experiment at best.
 - _April 2021:_ www.gbrusco.com is available?? I'll take that domain real estate.
